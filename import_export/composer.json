@@ -1,0 +1,19 @@
+{
+    "name": "dstp/import_export",
+    "type": "library",
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dstp\\ImportExport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "haider"
+        }
+    ],
+    "minimum-stability": "stable"
+}
