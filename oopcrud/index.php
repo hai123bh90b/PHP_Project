@@ -31,7 +31,7 @@
 
     <td><a href="update.php?id=<?php echo ($row['id']);?>">
     <button  onClick="return confirm('Do you really want to Update');">Edit</button></a></td>
-    <td><a href="index.php?del=<?php echo ($row['id']);?>">
+    <td><a href="delete.php?del=<?php echo ($row['id']);?>">
     <button  onClick="return confirm('Do you really want to delete');">Delete</button></a></td>
     </tr>
 <?php
