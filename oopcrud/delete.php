@@ -2,7 +2,7 @@
 
 include 'config.php';
 
-if(isset($_POST['del']))
+if(isset($_GET['del']))
 {
 
     $rowid = $_GET['del'];
